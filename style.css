@@ -1,3 +1,11 @@
 body{
-    color: black
+    color: green;
+}
+
+.featured-image {
+    transition: transform .2s;
+}
+
+.featured-image:hover {
+    transform: scale(1.2) rotate(5deg) translate(50px);
 }
